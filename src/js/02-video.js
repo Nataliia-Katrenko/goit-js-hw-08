@@ -12,3 +12,4 @@ const videoLastDuration = data => {
 player.on('timeupdate', throttle(videoLastDuration, 1000));
 
 player.setCurrentTime(localStorage.getItem('videoplayer-current-time'));
+
